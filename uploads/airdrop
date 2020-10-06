@@ -1,0 +1,14 @@
+#!/bin/bash
+
+upload() {
+cd /data/data/com.termux/files/home/Enyshare/uploads
+mv airdrop /data/data/com.termux/files/usr/bin
+clear
+pkg install wget
+clear
+pkg install php
+cd $HOME
+echo -e $cy"Type airdrop to share file"
+exit
+}
+uploads
